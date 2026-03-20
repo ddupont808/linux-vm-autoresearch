@@ -30,10 +30,10 @@ The goal is to maximize `boot_progress` (0.0 to 1.0): how far the emulator gets 
 
 ```bash
 # 1. Setup
-python prepare.py
+uv run prepare.py
 
 # 2. Run baseline
-python train.py --baseline
+uv run train.py --baseline
 
 # 3. Start autonomous experimentation (with an LLM agent)
 # Point your LLM agent at program.md and let it run

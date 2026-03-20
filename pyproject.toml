@@ -1,0 +1,12 @@
+[project]
+name = "linux-vm-autoresearch"
+version = "0.1.0"
+description = "LLM-driven evolutionary JIT optimization for v86"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "Pillow",
+]
+
+[project.scripts]
+evo_db = "evo_db:main"
