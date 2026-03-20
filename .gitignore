@@ -1,0 +1,14 @@
+# Cloned repos (managed separately)
+v86-workdir/
+references/
+
+# Runtime artifacts
+baseline/
+iso/
+*.log
+last_screenshot.png
+_benchmark_runner.js
+baseline_recorder.js
+evo_db.json
+evo_db_config.json
+__pycache__/
